@@ -24,8 +24,8 @@ class VistaPrincipal{
             win.loadURL(urlIndex);
 
             win.setMenuBarVisibility(false); //Ocultamos con las barras de navegacion
-            win.toggleDevTools();
 
+            win.toggleDevTools();
         });
         
     }
