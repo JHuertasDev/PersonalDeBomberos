@@ -3,7 +3,6 @@ const { app, BrowserWindow } = require('electron')
 class VistaPrincipal{
     mostrarVistaPrincipal(){
         var vistaPrincipalObject = this;
-        console.log("1");
 
         app.whenReady().then(function(){
             let win = new BrowserWindow({
@@ -17,12 +16,7 @@ class VistaPrincipal{
     }
 
     crearVentanaPrincipal(){
-                // Create the browser window.
-        
 
-        // and load the index.html of the app.
-        //win.loadFile('index.html');
-        
     }
 }
 
